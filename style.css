@@ -49,16 +49,17 @@ header {
 }
 
 th, td {
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 #stateResults th{
-  background-color: #3b3b3b;
+  background-color: #454545;
   color: white;
 }
 #countryResults th {
   background-color: #36494E;
   color: white;
+  text-transform: uppercase;
 }
 .name-1 {
   background-color: #BEB7DF;
@@ -71,6 +72,7 @@ th, td {
 .winner {
   background-color: #36494E;
   color: white;
+  text-transform: uppercase;
 }
 
 footer p {
