@@ -5,7 +5,7 @@ var g_map_borderColor = "#ffffff";            // state border color
 var g_map_highlightBorderColor = "white";  // highlighted state border color
 
 var g_map_baseRGB = [180, 180, 180];          // state color default
-var g_map_highlightRGB = [11, 32, 57];       // state color when highlighted
+var g_map_highlightRGB = [143, 171, 214];       // state color when highlighted
 
 var g_map_isIE9 = false;      // must detect IE9 for proper mouse position
 

@@ -20,6 +20,7 @@ header {
   font-family: 'Montserrat', serif;
   font-size: 21px;
   text-shadow: 1px 1px #ccc;
+  line-height: 33px;
 }
 
 .map-container {
@@ -56,19 +57,19 @@ th, td {
   color: white;
 }
 #countryResults th {
-  background-color: #f16059;
+  background-color: #36494E;
   color: white;
 }
 .name-1 {
-  background-color: rgb(132,17,11);
+  background-color: #BEB7DF;
   color: white;
 }
 .name-2 {
-  background-color: rgb(245, 141, 136);
+  background-color: #77BFA3;
   color: white;
 }
 .winner {
-  background-color: #f16059;
+  background-color: #36494E;
   color: white;
 }
 
@@ -79,6 +80,6 @@ footer p {
   text-transform: uppercase;
 }
 footer span {
-  color: #f16059;
+  color: #36494E;
   padding: 0 5px;
 }

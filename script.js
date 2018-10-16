@@ -17,8 +17,8 @@ var createPolitician = function(name, partyColor) {
 };
 
 //creating politicians passing in names and rgb party colors
-var sandra = createPolitician("Sandra Dee", [132, 17, 11]);
-var veronica = createPolitician("Veronica Mars", [245, 141, 136]);
+var sandra = createPolitician("Sandra Dee", [190, 183, 223]);
+var veronica = createPolitician("Veronica Mars", [119, 191, 163]);
 
 console.log("Sandra's color is " + sandra.partyColor);
 console.log("Veronica's color is " + veronica.partyColor);
@@ -117,44 +117,3 @@ row.children[1].innerText = sandra.totalVotes;
 row.children[2].innerText = veronica.name;
 row.children[3].innerText = veronica.totalVotes;
 row.children[5].innerText = winner;
-
-
-/*
-var makePBJ = function (breadType)
-{
-	var pbj = {};
-	pbj.bread = breadType;
-	pbj.contents = "peanut butter & jelly";
-	pbj.announcePBJ = function()
-	{
-		console.log("PB&J on " + this.bread + ", ready to eat!");
-	};
-
-	pbj.announcePBJ();
-
-	return pbj;
-};
-
-var pbj1 = makePBJ("white");
-var pbj2 = makePBJ("gluten-free");
-
-//getting at and assigning values for object instances
-pbj2.contents = "crunchy peanut butter & strawberry jam";
-
-
-
-var dancer = {};
-dancer.favoriteDances = ["Harlem Shake", "Tango", "Waltz"];
-
-dancer.danceAll = function() {
-	for (var i = 0; i < this.favoriteDances.length; i++) {
-	var nameOfDance = this.favoriteDances[i];
-	console.log("I'm dancing the " + nameOfDance + "!");
-	}
-};
-
-dancer.danceAll();
-
-
-
-*/
